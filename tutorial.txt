@@ -1,0 +1,18 @@
+Criar projeto com FastAPI
+
+# Criar diretorio
+
+# Criar ambiente virtual
+python -m venv venv
+
+# Ativar no Windows:
+venv\Scripts\activate
+
+# Instale o FastAPI e o Uvicorn (servidor)
+pip install fastapi uvicorn
+
+# Primeiro código
+criar arquivo main.py na pasta do projeto
+
+# Rodando o servidor no terminal, dentro da pasta do projeto, execute:
+uvicorn main:app --reload
