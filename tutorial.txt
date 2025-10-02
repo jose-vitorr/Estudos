@@ -8,8 +8,14 @@ python -m venv venv
 # Ativar no Windows:
 venv\Scripts\activate
 
-# Instale o FastAPI e o Uvicorn (servidor)
-pip install fastapi uvicorn
+# Instale o FastAPI e o Uvicorn (servidor) + pydantic
+pip install fastapi uvicorn pydantic
+
+OU
+
+# Instale todas as dependências do projeto
+pip install -r requirements.txt
+
 
 # Primeiro código
 criar arquivo main.py na pasta do projeto
