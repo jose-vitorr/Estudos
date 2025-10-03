@@ -1,5 +1,8 @@
-from typing import List
+from typing import List, Optional
 import uuid
+
+from domain.entities import Todo
+from domain.repositories import TodoRepository
 
 class TodoUseCases:
     def __init__(self, repository: TodoRepository):

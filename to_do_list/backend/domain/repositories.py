@@ -1,6 +1,8 @@
 from abc import ABC, abstractmethod
 from typing import List, Optional
 
+from domain.entities import Todo
+
 class TodoRepository(ABC):
     """Port - Interface que define o contrato"""
     

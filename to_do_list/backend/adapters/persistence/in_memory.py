@@ -1,3 +1,9 @@
+from typing import List, Optional
+
+from domain.entities import Todo
+from domain.repositories import TodoRepository
+
+
 class InMemoryTodoRepository(TodoRepository):
     """Adapter - Implementação em memória"""
     
