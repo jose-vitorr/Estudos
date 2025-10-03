@@ -20,5 +20,13 @@ pip install -r requirements.txt
 # Primeiro código
 criar arquivo main.py na pasta do projeto
 
+# Arquitetura Hexagonal
+
+
+# Quando você executa python -m backend.main, o Python entende que está dentro do pacote backend, 
+então as importações devem ser relativas a esse pacote (sem o prefixo backend.).
+
+# python -m backend.main
+
 # Rodando o servidor no terminal, dentro da pasta do projeto, execute:
 uvicorn main:app --reload
